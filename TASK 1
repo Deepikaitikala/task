@@ -1,0 +1,86 @@
+Assignment :
+------------
+
+1.pvsm with args :
+--------------
+Example:
+----------
+
+class Employee
+{
+  Public static void main(String args[])
+{
+  System.out.println("HelloWorld");
+ }
+}
+
+
+output:
+---------
+Sucessfully compiled
+
+output--Hello World
+
+2.psvm without args
+----------------
+
+Example:
+---------
+class Employee
+{
+ publc static void main()
+{
+ System.out.println("Hello World");
+}
+}
+output:
+---------
+error found in command promt :
+--------------------------------
+Main method not found in class Employee,please define the main method as:
+  publc static void main (String[])args)
+
+
+3.pvsm(args) :
+---------------
+
+Example :
+
+class Employee
+{
+ static publc void main (String[]) args)
+{
+ System.out.println("Hello World");
+  }
+}
+
+output :
+----------
+code sucessfully compiled --Hello world
+
+4.pvsm(args)
+------------
+
+class Employee
+{
+  publc static void main(String[] args)
+ {
+   System.out.println("Hello World");
+  }
+}
+
+output :
+----------
+invalid method declaration; return type required
+public static main(String[] args)
+
+
+
+
+
+
+
+
+
+
+
