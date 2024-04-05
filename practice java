@@ -1,0 +1,28 @@
+Constructor
+
+Public Class TestConstructor{
+
+         public static void main(String[] args ) { 
+                   Employee employee1=new Employee(); //
+            }
+     }
+
+
+ variable types
+ Class  Variables
+{
+   int a;
+    static int b ;
+
+ publc static void main(String args[])
+ {
+    int c =4;
+     Variables var = new Variables();
+    System.out.println(b);
+    System.out.println(c);
+    System.out.println(var .a);
+   }
+}
+
+
+
