@@ -1,0 +1,111 @@
+Inheritence:
+-------------
+Task 1:
+what if my child class has lesser access modifier?// private void walk()
+
+sol:
+ Here...if we define method as public access modifier in parent class(super class) and child define with private access modifier.
+
+it will generete a compile-time error...Because methods declared public in a superclass also must be public in all subclass.
+
+For example if declared methods as protected in a superclass must either be protected or public in subclasses; they cannot be private.
+--------------------------------------------------------------------------------------------------------------------------------------
+
+2. Calc,scientific calc,programmer calc-implement complete inheritance(overrinding,uniq methd...)
+
+Calculators (Parent or Super Class)
+
+    Addition() {}
+    Substraction() {}
+    Multiplication() {}
+    Division() {}
+
+Standard   (Child or Sub Class)
+
+   Addition() {}
+   Substraction() {}
+   Multiplication() {}
+   Division() {}
+   Percentage() {}   //Unique Method
+
+Scientific   (Child Class)
+
+   Addition() {}
+   Substraction() {}
+   Multiplication() {}
+   Division() {} 
+   Trigonometry()  {}   //Unique Method
+   Mode()  {}   //Unique Method
+
+Programmer   (Child Class)
+
+   Addition() {}
+   Substraction() {}
+   Multiplication() {}
+   Division() {} 
+   Bitwise()  {}   //Unique Method
+   Bitwise()  {}   //Unique Method
+
+3.Radio, Tv, Dvd Player  -identify the Apt parent class and implement inheritance
+Electronic Broadcast  (Parent class)
+
+   Audio() {}
+   Play() {}
+   stop() {}
+
+Radio  (Child Class)
+
+   Audio() {}
+   Recording() {}
+   Play() {}
+   Stop() {}
+   Vedio() {} // unique method
+   Vedio_Recording() {} //unique method
+
+ TV (Child class)
+
+    Audio() {}
+    Play() {}
+    stop() {}
+    Vedio_Disk() {} // unique method
+    Vedio_Recording() {} //unique method
+
+ DVD Player (Child class)
+
+    Audio() {}
+    Play() {}
+    stop() {}
+    Vedio_Disk() {} // unique method
+    Mic() {} //unique method
+
+ 4. Admin, Manager , Finance - identify the parent class and implement inheritence
+
+ Departent (Parent class)
+     login() {}
+     logout() {}
+     company() {}
+
+Manager (child class)
+     login() {}
+     logout() {}
+     company() {}
+     employee_Data() {} // Unique method
+
+Finance (child class)
+     login() {}
+     logout() {}
+     company() {}
+     accounts() {}  // unique method
+     salary() {}    // unique method
+
+
+
+  
+
+
+
+
+
+
+
+
